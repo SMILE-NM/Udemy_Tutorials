@@ -1,0 +1,9 @@
+{
+  "name": "Udemy_Course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
