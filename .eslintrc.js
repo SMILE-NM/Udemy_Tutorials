@@ -23,7 +23,8 @@ module.exports = {
   'rules': {
     'indent': [
       'warn',
-      2
+      2,
+      { 'SwitchCase': 1 }
     ],
     'linebreak-style': [
       'error',
@@ -47,8 +48,8 @@ module.exports = {
     'max-len': [
       'error',
       {
-        'code': 80, // Устанавливаем максимальную длину строки
-        'tabWidth': 2, // Указываем ширину табуляции, если используете табы
+        'code': 80,
+        'tabWidth': 2,
         'ignoreUrls': true,
         'ignoreComments': false,
         'ignoreStrings': true,
